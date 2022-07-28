@@ -9,7 +9,7 @@ import { BudgetItem } from 'src/shared/models/budget-item.model';
 })
 export class AddItemFormComponent implements OnInit {
 
-  @Input() item: BudgetItem = new BudgetItem('', 0);
+  @Input() item: BudgetItem = new BudgetItem('', null);
 
   constructor() { }
 
